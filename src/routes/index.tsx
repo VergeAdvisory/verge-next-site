@@ -110,7 +110,7 @@ const services = [
   {
     icon: Compass,
     title: "Strategy",
-    items: ["Growth strategy development", "Executive decision support", "Leadership team capacity"],
+    items: ["Growth strategy development", "Executive decision support", "Board development"],
   },
   {
     icon: Coins,
@@ -124,7 +124,7 @@ const services = [
   },
   {
     icon: Users,
-    title: "Advisory Board Support",
+    title: "Advisory Board Development",
     items: ["Needs assessment", "Advisor identification", "Board creation including governance support"],
   },
 ];
