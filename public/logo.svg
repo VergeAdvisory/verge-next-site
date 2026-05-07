@@ -1,1 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 40"><text x="0" y="28" font-family="Helvetica Neue, Arial, sans-serif" font-weight="300" font-size="22" letter-spacing="2" fill="#2c3150">VERGE ADVISORY</text></svg>
+<svg width="680" height="320" viewBox="0 0 680 320" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>Verge Advisory logo</title>
+  <desc>Verge Advisory logo with V mark at 55 degrees, tip above the V in Verge, uniform light weight wordmark, navy and mauve palette</desc>
+  <style>
+    .wordmark { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 36px; font-weight: 300; fill: #2c3150; letter-spacing: 5px; }
+    .tagline { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 11px; font-weight: 300; fill: #9a8a9e; letter-spacing: 4.5px; }
+  </style>
+  <g transform="translate(0, 75)">
+    <g transform="translate(168, 44) rotate(55) scale(0.85)">
+      <polygon points="0,0 -26,54 26,54" fill="none" stroke="#2c3150" stroke-width="1.4"/>
+      <polygon points="0,0 -18,50 18,50" fill="#b08898" opacity="0.88"/>
+      <line x1="0" y1="4" x2="0" y2="48" stroke="#ffffff" stroke-width="1" opacity="0.55"/>
+    </g>
+    <text x="165" y="108" class="wordmark">VERGE  ADVISORY</text>
+    <line x1="165" y1="122" x2="567" y2="122" stroke="#d4c4cc" stroke-width="0.6"/>
+    <text x="272" y="142" class="tagline">GROWTH · CAPITAL · PARTNERSHIPS</text>
+  </g>
+</svg>
