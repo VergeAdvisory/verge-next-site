@@ -113,6 +113,11 @@ const services = [
     items: ["Growth strategy development", "Executive decision support", "Board development"],
   },
   {
+    icon: Users,
+    title: "Advisory Board Development",
+    items: ["Needs assessment", "Advisor identification", "Board creation including governance support"],
+  },
+  {
     icon: Coins,
     title: "Capital",
     items: ["Capital strategy development", "Financing navigation plan", "Capital raising guidance"],
@@ -121,11 +126,6 @@ const services = [
     icon: Handshake,
     title: "Partnerships",
     items: ["Strategic partnership identification, development and management"],
-  },
-  {
-    icon: Users,
-    title: "Advisory Board Development",
-    items: ["Needs assessment", "Advisor identification", "Board creation including governance support"],
   },
 ];
 
