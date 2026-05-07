@@ -89,7 +89,7 @@ function About() {
             width={800}
             height={1024}
             loading="lazy"
-            className="w-48 md:w-56 aspect-[4/5] object-cover rounded-2xl shadow-sm"
+            className="w-36 md:w-44 aspect-[4/5] object-cover object-top rounded-2xl shadow-sm"
           />
         </div>
         <div className="order-1 md:order-2">
