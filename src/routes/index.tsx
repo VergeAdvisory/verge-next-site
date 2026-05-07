@@ -157,10 +157,10 @@ function Services() {
           <p className="text-xs tracking-[0.3em] uppercase text-accent mb-5">Beyond the Core</p>
           <h3 className="text-3xl md:text-4xl text-primary font-light leading-tight">The Lattice</h3>
           <p className="mt-8 text-xl md:text-2xl text-primary font-light italic leading-relaxed">
-            &ldquo;Sometimes a challenge calls for more than one perspective.&rdquo;
+            &ldquo;Sometimes a challenge calls for multiple perspectives.&rdquo;
           </p>
           <p className="mt-6 text-base md:text-lg text-muted-foreground leading-relaxed font-light">
-            Verge Advisory brings access to a trusted group of senior leaders with deep experience across key business functions — available to engage as needed.
+            Verge Advisory collaborates with The Lattice, bringing access to a trusted group of senior leaders with deep experience across key business functions — available to engage as needed.
           </p>
         </div>
       </div>
