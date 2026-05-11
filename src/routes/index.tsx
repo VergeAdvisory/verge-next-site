@@ -143,7 +143,7 @@ function Services() {
           <p className="text-xs tracking-[0.3em] uppercase text-accent mb-6">Services</p>
           <h2 className="text-3xl md:text-5xl text-primary font-light leading-tight">Core Areas of Support</h2>
         </div>
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 md:gap-10">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12 md:gap-10">
           {services.map((s) => (
             <div key={s.title}>
               <s.icon className="h-8 w-8 text-accent mb-6 stroke-[1.25]" />
