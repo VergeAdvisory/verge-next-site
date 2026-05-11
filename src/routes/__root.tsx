@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Verge Advisory" },
+      { name: "description", content: "Verge Advisory's website offers a modern, single-page experience for a strategy and management advisory firm." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Verge Advisory" },
+      { property: "og:description", content: "Verge Advisory's website offers a modern, single-page experience for a strategy and management advisory firm." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Verge Advisory" },
+      { name: "twitter:description", content: "Verge Advisory's website offers a modern, single-page experience for a strategy and management advisory firm." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7e8d43be-274e-4f8d-95ec-e4ad13827c0f/id-preview-7b08ec01--e7d4a22d-c52f-4f95-83ff-97936329870a.lovable.app-1778540417268.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7e8d43be-274e-4f8d-95ec-e4ad13827c0f/id-preview-7b08ec01--e7d4a22d-c52f-4f95-83ff-97936329870a.lovable.app-1778540417268.png" },
     ],
     links: [
       {
