@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
-import { Linkedin, Mail, Compass, Coins, Handshake, Users, Building2, Briefcase, GraduationCap, Award, Network, TrendingUp } from "lucide-react";
+import { Linkedin, Mail, Compass, Coins, Users, Building2, Briefcase, GraduationCap, Award, Network, TrendingUp } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
