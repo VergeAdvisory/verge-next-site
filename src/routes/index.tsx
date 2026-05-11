@@ -40,7 +40,7 @@ function Nav() {
     >
       <div className="mx-auto max-w-7xl px-6 md:px-12 flex items-center justify-between h-20">
         <a href="#top" className="flex items-center">
-          <img src="/logo.svg" alt="Verge Advisory" style={{ width: 260 }} />
+          <img src="/logo.svg" alt="Verge Advisory" style={{ width: 300 }} />
         </a>
         <nav className="hidden md:flex items-center gap-10">
           {navLinks.map((l) => (
