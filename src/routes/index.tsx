@@ -231,21 +231,14 @@ function Contact() {
             Reach out to explore how Verge Advisory can support your next chapter.
           </p>
         </div>
-        <form
-          className="space-y-5"
-          onSubmit={(e) => {
-            e.preventDefault();
-            window.location.href = "mailto:jillearthy@gmail.com";
-          }}
-        >
-          <Input placeholder="Name" required className="bg-background border-border rounded-none h-14 px-5 font-light" />
-          <Input placeholder="Organization" className="bg-background border-border rounded-none h-14 px-5 font-light" />
-          <Input type="email" placeholder="Email" required className="bg-background border-border rounded-none h-14 px-5 font-light" />
-          <Textarea placeholder="Message" required rows={5} className="bg-background border-border rounded-none px-5 py-4 font-light" />
-          <Button type="submit" size="lg" className="w-full bg-primary hover:bg-primary/90 text-primary-foreground rounded-none py-6 text-sm tracking-[0.2em] uppercase font-light">
-            Send Message
+        <div className="text-center">
+          <p className="text-lg text-muted-foreground font-light mb-10">
+            Let&rsquo;s explore how we can work together.
+          </p>
+          <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-none px-10 py-6 text-sm tracking-[0.2em] uppercase font-light">
+            <a href="mailto:jillearthy@gmail.com">Send Message</a>
           </Button>
-        </form>
+        </div>
         <div className="mt-16 text-center">
           <p className="text-primary font-light tracking-wide">Jill Earthy &middot; Vancouver, Canada</p>
           <div className="mt-5 flex items-center justify-center gap-6">
