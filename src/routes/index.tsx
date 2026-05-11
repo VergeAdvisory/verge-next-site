@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
-import { Linkedin, Mail, Compass, Coins, Handshake, Users, Building2, Briefcase, GraduationCap, Award, Network, TrendingUp } from "lucide-react";
+import { Linkedin, Mail, Compass, Coins, Users, Building2, Briefcase, GraduationCap, Award, Network, TrendingUp } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -121,17 +121,12 @@ const services = [
   {
     icon: Compass,
     title: "Strategy",
-    items: ["Growth strategy", "Executive decision support", "Board development"],
+    items: ["Growth strategy", "Executive decision support", "Board and partnership management"],
   },
   {
     icon: Coins,
     title: "Capital",
     items: ["Capital strategy", "Financing navigation", "Capital raising guidance"],
-  },
-  {
-    icon: Handshake,
-    title: "Partnerships",
-    items: ["Partnership identification, development & management"],
   },
   {
     icon: Users,
@@ -148,7 +143,7 @@ function Services() {
           <p className="text-xs tracking-[0.3em] uppercase text-accent mb-6">Services</p>
           <h2 className="text-3xl md:text-5xl text-primary font-light leading-tight">Core Areas of Support</h2>
         </div>
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 md:gap-10">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12 md:gap-10">
           {services.map((s) => (
             <div key={s.title}>
               <s.icon className="h-8 w-8 text-accent mb-6 stroke-[1.25]" />
