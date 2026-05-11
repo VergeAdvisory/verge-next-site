@@ -98,9 +98,20 @@ function About() {
             Experienced Judgment When It Matters Most
           </h2>
           <p className="mt-8 text-base md:text-lg text-muted-foreground leading-relaxed font-light">
-            Over the past several decades, Jill Earthy has started and led organizations focused on innovation, finance, and economic growth in Canada. That experience is now focused on bringing strategic insight, governance expertise, and deep connections across Canada&rsquo;s innovation and investment ecosystem to organizations ready to explore what is possible beyond the verge.
+            Over the past several decades, Jill Earthy has built and led organizations at the intersection of innovation, finance, and economic growth across Canada. Today, that experience is focused on helping companies navigate pivotal moments — bringing strategic insight, governance expertise, and deep connections across Canada&rsquo;s investment and innovation ecosystem to organizations ready to move beyond the verge.
           </p>
         </div>
+      </div>
+
+      <div className="mx-auto max-w-3xl mt-28 md:mt-36 border-l-2 border-accent pl-8 md:pl-12">
+        <p className="text-xs tracking-[0.3em] uppercase text-accent mb-5">Beyond the Core</p>
+        <h3 className="text-3xl md:text-4xl text-primary font-light leading-tight">The Lattice</h3>
+        <p className="mt-8 text-xl md:text-2xl text-primary font-light italic leading-relaxed">
+          &ldquo;Sometimes a challenge calls for multiple perspectives.&rdquo;
+        </p>
+        <p className="mt-6 text-base md:text-lg text-muted-foreground leading-relaxed font-light">
+          Verge Advisory collaborates with The Lattice, bringing access to a trusted group of senior leaders with deep experience across key business functions — available to engage as needed.
+        </p>
       </div>
     </section>
   );
