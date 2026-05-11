@@ -121,12 +121,12 @@ const services = [
   {
     icon: Compass,
     title: "Strategy",
-    items: ["Growth strategy", "Executive decision support", "Board and partnership management"],
+    items: ["Growth strategy development", "Executive decision support", "Board and partnership management"],
   },
   {
     icon: Coins,
     title: "Capital",
-    items: ["Capital strategy", "Financing navigation", "Capital raising guidance"],
+    items: ["Capital strategy development", "Financing navigation", "Capital raising guidance"],
   },
   {
     icon: Users,
